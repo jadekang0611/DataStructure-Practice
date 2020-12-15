@@ -15,7 +15,6 @@ public class BubbleSort  {
             System.out.println(item);
         }
     }
-    // TODO: Write a swap method
     public static void swap (int[] array, int i, int j) {
         if (i == j) {
             return;
