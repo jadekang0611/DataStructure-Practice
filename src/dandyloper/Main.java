@@ -22,6 +22,10 @@ public class Main {
 
         BubbleSort bubbleSort = new BubbleSort();
         bubbleSort.runBubbleSort(intArray);
+
+        SelectionSort selectionSort = new SelectionSort();
+        selectionSort.runSelectionSort(intArray);
+
     }
 
 }
