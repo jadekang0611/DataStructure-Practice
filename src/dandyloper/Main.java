@@ -26,6 +26,9 @@ public class Main {
         SelectionSort selectionSort = new SelectionSort();
         selectionSort.runSelectionSort(intArray);
 
+        InsertionSort insertionSort = new InsertionSort();
+        insertionSort.runInsertionSort(intArray);
+
     }
 
 }
