@@ -19,6 +19,7 @@ public class Main {
 //        }
         // This is where I run my bubble sort method
         int[] intArray = {20, 35, -15, 7, 55, 1, -22};
+        int num = 6;
 
         BubbleSort bubbleSort = new BubbleSort();
         bubbleSort.runBubbleSort(intArray);
@@ -31,6 +32,9 @@ public class Main {
 
         ShellSort shellSort = new ShellSort();
         shellSort.runShellSort(intArray);
+
+        Factorial_IteratativeFashion factorial_iteratativeFashion = new Factorial_IteratativeFashion();
+        factorial_iteratativeFashion.runFactorialIterative(num);
 
     }
 
