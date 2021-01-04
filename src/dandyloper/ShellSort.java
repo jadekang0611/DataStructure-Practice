@@ -19,7 +19,7 @@ public class ShellSort {
             }
 
         }
-        System.out.println("\n-------Shell Sort--------");
+        System.out.println("\n---------Shell Sort----------");
         for(int item : intArray){
             System.out.println(item);
         }

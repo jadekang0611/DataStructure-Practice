@@ -29,6 +29,9 @@ public class Main {
         InsertionSort insertionSort = new InsertionSort();
         insertionSort.runInsertionSort(intArray);
 
+        ShellSort shellSort = new ShellSort();
+        shellSort.runShellSort(intArray);
+
     }
 
 }
