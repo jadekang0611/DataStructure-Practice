@@ -36,6 +36,9 @@ public class Main {
         Factorial_IteratativeFashion factorial_iteratativeFashion = new Factorial_IteratativeFashion();
         factorial_iteratativeFashion.runFactorialIterative(num);
 
+        System.out.println(Factorial_Recursive.runFactorialRecursive(num));
+
+
     }
 
 }
