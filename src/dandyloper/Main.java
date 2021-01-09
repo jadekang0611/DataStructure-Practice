@@ -38,7 +38,8 @@ public class Main {
 
         System.out.println(Factorial_Recursive.runFactorialRecursive(num));
 
-
+        MergeSort mergeSort = new MergeSort();
+        mergeSort.runMergeSort(intArray, 0, intArray.length);
     }
 
 }
